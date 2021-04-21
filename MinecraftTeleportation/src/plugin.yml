@@ -1,0 +1,16 @@
+name: Teleportation
+version: 1.0.0
+author: grafando
+description: Plugin allowing players to request teleports
+main: com.grafando.teleportation.Teleportation
+api-version: 1.16
+load: STARTUP
+commands:
+  push:
+    description: command to teleport to target
+    usage: /<command> argument
+    aliases: [tp, tpa, go, teleport]
+  pull:
+    description: command to teleport target
+    usage: /<command> argument
+    aliases: [tptome, tpahere, tpici, come, tpahere]
